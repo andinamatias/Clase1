@@ -12,6 +12,7 @@ $cont = 0;
 $porc = 0;
 $numeroveces = 0;
 $random;
+$array();
 
 //echo "<h2> hola php soy '$nombre'</h2>";
 
@@ -19,33 +20,27 @@ $random;
 //echo(rand(10,100)); // numero random entre 10 y 100.
 
 	echo "while" . "<br>";
-	while($cont <= $veces)
+	for($x = 0 ; $x < 10 ; $x++)
 	{
 		
 	$random = rand(0,9);
 	//echo "muestro random: " . $random;
 	//echo(rand(0,9) . "<br>");
 	//echo "'$cont'" . "<br>";
-	$cont = $cont +1;
 
-		switch ($random) 
+		if ($random == 7) {
+			
+			$numeroveces = $numeroveces + 1;
+			$porc = $numeroveces * 100 / 10;
+		}else
 		{
-			case 7:
-				echo "es uno" . "<br>";
-				$numeroveces = $numeroveces + 1;
-				break;
-			case 2:
-				echo "es dos" . "<br>";
-				break;
-			default:
-			//	# code...
-				break;
+
+			$x--;
+			continue;
 
 		}
 
 	}
-
-$porc = $numeroveces * 100 / $veces;
 
 echo "$porc";
 
