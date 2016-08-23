@@ -7,7 +7,7 @@ hola mundo <!--lo que escribvo aca es codigo php-->
 <?php
 
 $nombre = "Matias";
-$veces = 10;
+$veces = 1000;
 $cont = 0;
 $porc = 0;
 $numeroveces = 0;
@@ -18,17 +18,19 @@ $random;
 //echo(rand() . "<br>"); // numero random (aleatorio).
 //echo(rand(10,100)); // numero random entre 10 y 100.
 
-	echo "while";
+	echo "while" . "<br>";
 	while($cont <= $veces)
 	{
 		
 	$random = rand(0,9);
-	echo(rand(0,9) . "<br>");
-	echo "'$cont'" . "<br>";
+	//echo "muestro random: " . $random;
+	//echo(rand(0,9) . "<br>");
+	//echo "'$cont'" . "<br>";
 	$cont = $cont +1;
 
-		switch ($random) {
-			case 1:
+		switch ($random) 
+		{
+			case 7:
 				echo "es uno" . "<br>";
 				$numeroveces = $numeroveces + 1;
 				break;
@@ -43,7 +45,7 @@ $random;
 
 	}
 
-$porc = $numeroveces * $veces / 100;
+$porc = $numeroveces * 100 / $veces;
 
 echo "$porc";
 
