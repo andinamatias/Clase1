@@ -1,17 +1,15 @@
 <?php
-
+require("FiguraGeometrica.php");
 /**
 * 
 */
-class Triangulo
+class Triangulo extends FiguraGeometrica
 {
 	
 	function __construct(argument)
 	{
 		# code...
 	}
-
-	
 
 }
 
