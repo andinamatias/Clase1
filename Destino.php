@@ -1,18 +1,18 @@
 <?php
 
-	if(isset($_GET['nombre']))
-	{
+	//if(isset($_GET['nombre']))
+	//{
 
-		echo $_GET['nombre'];
+		//echo $_GET['nombre'];
 
-	}
-	else
-	{
+	//}
+	//else
+	//{
+        //echo "primer ingreso";
 
-        echo "primer ingreso";
+	//}
 
-	}
 
-	var_dump($_Post);
+	var_dump($_POST);
 
 ?>
