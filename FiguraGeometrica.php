@@ -6,12 +6,12 @@
 class FiguraGeometrica
 {
 	
-	function __construct(argument)
+	function __construct()
 	{
 		# code...
 	}
 
-	public funtion ContarHasta10()
+	Public function ContarHasta10()
 	{
 
 		for ($i=0; $i < 11; $i++)
