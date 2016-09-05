@@ -8,7 +8,7 @@ class FiguraGeometrica
 	
 	function __construct()
 	{
-		# code...
+		# code..
 	}
 
 	Public function ContarHasta10()
