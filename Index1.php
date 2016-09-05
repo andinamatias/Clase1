@@ -4,8 +4,7 @@
 </head>
 <body>
 
-	<form>
-
+	<form action = "Destino.php">
 	
 	<label> Nombre </label>
 	<input type = "text" name = "nombre" placeholder = "escriba">
@@ -21,21 +20,5 @@
 </body>
 </html>
 
-<?php
 
-	if(isset($_GET['nombre']))
-	{
-
-		echo $_GET['nombre'];
-
-	}else
-	{
-
-        echo "primer ingreso";
-
-	}
-
-	//var_dump($_GET)
-
-?>
 

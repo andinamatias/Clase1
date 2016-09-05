@@ -13,4 +13,17 @@ $Figura = new FiguraGeometrica();
 
 $triangulo->ContarHasta10();
 
-?>
+
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<form>
+
+	</form>
+
+</body>
+</html>
