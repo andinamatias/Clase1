@@ -5,11 +5,14 @@
 
 		echo $_GET['nombre'];
 
-	}else
+	}
+	else
 	{
 
         echo "primer ingreso";
 
 	}
+
+	var_dump($_Post);
 
 ?>
