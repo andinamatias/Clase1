@@ -1,6 +1,8 @@
 
 <?php
 
-echo "hola todo instalado"
+$string = 'Todo ok';
+
+echo "hola todo instalado . $string";
 
 ?>
