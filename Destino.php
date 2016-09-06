@@ -14,9 +14,12 @@
 
 	//var_dump($_POST);
 
-	$_POST['result'] =  $_POST['txtUno'] * $_POST['txtDos'] / 2;
+	<?php
 
+		$Respuesta = $_POST['txtDos'] * $_POST['txtUno'] / 2;
+		echo "$respuesta";
 
+	?>
 
 ?>
 <a href="">volver</a>
