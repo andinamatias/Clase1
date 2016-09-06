@@ -12,7 +12,11 @@
 
 	//}
 
+	//var_dump($_POST);
 
-	var_dump($_POST);
+	$_POST['result'] =  $_POST['txtUno'] * $_POST['txtDos'] / 2;
+
+
 
 ?>
+<a href="">volver</a>

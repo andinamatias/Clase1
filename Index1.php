@@ -10,13 +10,23 @@
 	<body>
 	<div class = "CajaInicio animated rotateInUpRight">
 
-		<form action="Destino.php" method="post" id="FormIngreso" >
 		
+
+		<form method="Post" id="FormIngreso" >
+
+		<?php
+
+		$Respuesta = $_POST['txtDos'] * $_POST['txtUno'] / 2;
+
+		?>
+					
 		<label> Ingrese Lado </label>
-		<input type = "text" name = "txtUno" placeholder="Lado Uno">
+		<input type = "text" name = "txtUno" placeholder="Base de Rectangulo">
 
 		<label> Ingrese Lado </label>
-		<input type = "text" name = "txtDos" placeholder="Lado Uno">
+		<input type = "text" name = "txtDos" placeholder="Altura de Rectangulo">
+
+		<input type = "text" name = "result" placeholder="Resultado" value= <?php echo "$Respuesta" ?>>
 
 		<input type = "submit" class = "MiBotonUTNMenuinicio">
 
