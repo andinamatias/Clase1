@@ -1,37 +1,29 @@
 <html>
 <head>
-
-
 	
 	<link rel="stylesheet" type="text/css" href="estilo.css">
-		<link rel="stylesheet" type="text/css" href="animacion.css">
+	<link rel="stylesheet" type="text/css" href="animacion.css">
 
 	<title>
-
-
-
 	</title>
 </head>
-<body>
+	<body>
+	<div class = "CajaInicio animated rotateInUpRight">
 
+		<form action="Destino.php" method="post" id="FormIngreso" >
+		
+		<label> Ingrese Lado </label>
+		<input type = "text" name = "txtUno" placeholder="Lado Uno">
 
-<div class = "CajaInicio animated rotateInUpRight">
+		<label> Ingrese Lado </label>
+		<input type = "text" name = "txtDos" placeholder="Lado Uno">
 
-	<form action="Destino.php" method="post" id="FormIngreso" >
-	
-	<label> Nombre </label>
-	<input type = "text" name = "nombre" placeholder="es64654654564654654654criba">
+		<input type = "submit" class = "MiBotonUTNMenuinicio">
 
-	<input type = "text" name = "numero uno">
+		</form>
 
-	<input type = "submit" class= "MiBotonUTNMenuinicio">
-
-
-
-	</form>
-
-</div>
-</body>
+	</div>
+	</body>
 </html>
 
 
