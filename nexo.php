@@ -1,8 +1,9 @@
 <?php
 					
 
-					$archivo = fopen ("miarchivo.txt", "r");
+					$archivo =@ fopen ("miarchivo.txt", "r");
 
+					rewind($archivo);//levar el puntero al comienzo del fichero
 					while(!fof($archivo))//contola que no este al final del archivo
 					{
 
