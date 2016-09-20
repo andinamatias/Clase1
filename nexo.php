@@ -1,7 +1,17 @@
 <?php
+					
 
-//var_dump($_FILES);
+					$archivo = fopen ("miarchivo.txt", "r");
 
+					while(!fof($archivo))//contola que no este al final del archivo
+					{
+
+
+						if($linea )
+
+					}
+
+					/*
 					$NombreCompleto=explode(".", $_FILES['foto']['name']);
 					$Extension=  end($NombreCompleto);
 					$arrayDeExtValida = array("jpg", "jpeg", "gif", "bmp","png");  //defino antes las extensiones que seran validas
@@ -23,10 +33,12 @@
       						 echo "algun error";
       					}
 
-
-
 					}
 
-	
+					$archivo = fopen ("")
+
+					*/
+					
 
 ?>
+
