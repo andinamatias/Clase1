@@ -8,11 +8,11 @@ $string = 'Todo ok';
 echo "hola todo instalado . $string";
 
 $triangulo = new Triangulo();
-
+asdasd
 $Figura = new FiguraGeometrica();
 
 $triangulo->ContarHasta10();
-
+qweqweqwe
 
 
 <html>
