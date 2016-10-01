@@ -14,7 +14,7 @@ $Figura = new FiguraGeometrica();
 $triangulo->ContarHasta10();
 qweqweqwe
 
-
+ASAS
 <html>
 <head>
 	<title></title>

@@ -11,7 +11,7 @@
 		<input type="text" name = "text">
 		<input type = "file" name = "foto">
 		<input type = "submit" name = "boton" value = "boton">
-
+ASAS
 		</form>
 
 	</body>
