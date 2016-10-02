@@ -1,4 +1,9 @@
-<?php
+
+
+	<?php
+
+		$Respuesta = $_POST['txtDos'] * $_POST['txtUno'] / 2;
+		echo "$respuesta";
 
 	//if(isset($_GET['nombre']))
 	//{
@@ -14,12 +19,5 @@
 
 	//var_dump($_POST);
 
-	<?php
-
-		$Respuesta = $_POST['txtDos'] * $_POST['txtUno'] / 2;
-		echo "$respuesta";
 
 	?>
-
-?>
-<a href="">volver</a>
